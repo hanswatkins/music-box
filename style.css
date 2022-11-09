@@ -1,0 +1,16 @@
+@import url(./reset.css);
+
+body {
+    background-color: black;
+}
+
+#instrument {
+    height: 116px;
+    width: 812px;
+    outline: 1px dotted white;
+    padding-right: 10px;
+    padding-top: 50px;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
