@@ -5,7 +5,7 @@ html {
 }
 
 body {
-	background-image: url('./DTS_In_Focus_Daniel_Farò_4977.jpg');
+	background-image: url('/background.jpg');
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
