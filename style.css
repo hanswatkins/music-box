@@ -1,7 +1,32 @@
-@import url(./reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+html {
+	height: 100vh;
+}
 
 body {
-	background-color: #331f35;
+	background-image: url('./DTS_In_Focus_Daniel_Farò_4977.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+	font-family: Poppins;
+	text-transform: uppercase;
+}
+
+.box {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+	border-radius: 5px;
+}
+
+p {
+	grid-area: 2 / 2 / 3 / 3;
+	text-align: center;
+	padding-top: 8px;
 }
 
 #instrument {
@@ -25,55 +50,79 @@ body {
 	height: 100px;
 	margin-left: 10px;
 	margin-top: 10px;
-
 }
 
 #c1 {
-	background-color: #3e181b;
-	border: 3px solid #db1d2d;
+	background-color: rgba(255, 255, 255, 0.3);
+	border: 3px solid rgb(243, 243, 200);
 }
 
 #d {
-	background-color: #422018;
-	border: 3px solid #f0421c;
+	background-color: rgba(255, 255, 255, 0.3);
+	border: 3px solid rgb(243, 243, 200);
 }
 
 #e {
-	background-color: #45391b;
-	border: 3px solid #fec02d;
+	background-color: rgba(255, 255, 255, 0.3);
+	border: 3px solid rgb(243, 243, 200);
 }
 
 #f {
-	background-color: #193c29;
-	border: 3px solid #20d071;
+	background-color: rgba(255, 255, 255, 0.3);
+	border: 3px solid rgb(243, 243, 200);
 }
 
 #g {
-	background-color: #18323e;
-	border: 3px solid #1a9ddb;
+	background-color: rgba(255, 255, 255, 0.3);
+	border: 3px solid rgb(243, 243, 200);
 }
 
 #a {
-	background-color: #331f35;
-	border: 3px solid #a13fad;
+	background-color: rgba(255, 255, 255, 0.3);
+	border: 3px solid rgb(243, 243, 200);
 }
 
 #b {
-	background-color: #342943;
-	border: 3px solid #aa6ff2;
+	background-color: rgba(255, 255, 255, 0.3);
+	border: 3px solid rgb(243, 243, 200);
 }
 
 #c {
-	background-color: #43293d;
-	border: 3px solid #f26fd4;
+	background-color: rgba(255, 255, 255, 0.3);
+	border: 3px solid rgb(243, 243, 200);
 }
 
 /* active classes */
 
 /* hovers */
 
-#c:hover {
-	background-color: #661920;
+#f:hover {
+	background-color: rgba(255, 255, 255, 0);
+	cursor: pointer;
+}
+
+#e:hover {
+	background-color: rgba(255, 255, 255, 0);
+	cursor: pointer;
+}
+
+#g:hover {
+	background-color: rgba(255, 255, 255, 0);
+	cursor: pointer;
+}
+
+#d:hover {
+	background-color: rgba(255, 255, 255, 0);
+	cursor: pointer;
+}
+
+#c1:hover {
+	background-color: rgba(255, 255, 255, 0);
+	cursor: pointer;
+}
+
+/* #c:hover {
+	background-color: rgba(255, 255, 255, 1);
 	cursor: pointer;
 }
 
@@ -90,61 +139,38 @@ body {
 #g:hover {
 	background-color: #184d65;
 	cursor: pointer;
-}
+} */
 
-#f:hover {
-	background-color: #1b613b;
-	cursor: pointer;
-}
-
-#e:hover {
-	background-color: #735b20;
-	cursor: pointer;
-}
-
-#g:hover {
-	background-color: #184d65;
-	cursor: pointer;
-}
-
-#d:hover {
-	background-color: #6e2819;
-	cursor: pointer;
-}
-
-#c1:hover {
-	background-color: #582226;
-	cursor: pointer;
-}
+/* active pseudo classes */
 
 #d:active {
-	background-color: #f0421c;
+	background-color: rgba(255, 255, 255, 0);
 }
 
 #e:active {
-	background-color: #fec02d;
+	background-color: rgba(255, 255, 255, 0);
 }
 
 #f:active {
-	background-color: #20d071;
+	background-color: rgba(255, 255, 255, 0);
 }
 
 #g:active {
-	background-color: #1a9ddb;
+	background-color: rgba(255, 255, 255, 0);
 }
 
 #a:active {
-	background-color: #a13fad;
+	background-color: rgba(255, 255, 255, 0);
 }
 
 #b:active {
-	background-color: #aa6ff2;
+	background-color: rgba(255, 255, 255, 0);
 }
 
 #c:active {
-	background-color: #f26fd4;
+	background-color: rgba(255, 255, 255, 0);
 }
 
 #c1:active {
-	background-color: #db1d2d;
+	background-color: rgba(255, 255, 255, 0);
 }

@@ -8,22 +8,43 @@
 		<link rel="stylesheet" href="style.css" />
 		<script src="script.js" defer></script>
 		<link rel="shortcut icon" href="#" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+			crossorigin="anonymous"
+		/>
 	</head>
 	<body>
+		<h1 class="display-1 text-center text-light mt-3">ARBOUR DRUM KIT</h1>
+		<div class="row text-center">
+			<div class="col"></div>
+			<div class="col text-light">A - Kick</div>
+			<div class="col text-light">S - Snare</div>
+			<div class="col"></div>
+		</div>
+		<div class="row text-center">
+			<div class="col"></div>
+
+			<div class="col text-light">D - Rim</div>
+			<div class="col text-light">F - Hat</div>
+			<div class="col"></div>
+		</div>
+
 		<div>
 			<audio id="c1Audio">
-				<source src="./notes/notes C1.mp3" type="audio/mp3" />
+				<source src="./drums/kick 1.wav" type="audio/wav" />
 			</audio>
 			<audio id="dAudio">
-				<source src="./notes/notes D.mp3" type="audio/mp3" />
+				<source src="./drums/snare 1.wav" type="audio/wav" />
 			</audio>
 			<audio id="eAudio">
-				<source src="./notes/notes E.mp3" type="audio/mp3" />
+				<source src="./drums/citysound rim @prod_arbour.wav" type="audio/wav" />
 			</audio>
 			<audio id="fAudio">
-				<source src="./notes/notes F.mp3" type="audio/mp3" />
+				<source src="./drums/hat 1.wav" type="audio/wav" />
 			</audio>
-			<audio id="gAudio">
+			<!-- <audio id="gAudio">
 				<source src="./notes/notes G.mp3" type="audio/mp3" />
 			</audio>
 			<audio id="aAudio">
@@ -34,17 +55,18 @@
 			</audio>
 			<audio id="cAudio">
 				<source src="./notes/notes C.mp3" type="audio/mp3" />
-			</audio>
+			</audio> -->
 		</div>
+
 		<div id="instrument">
-			<div id="c1" class="box"></div>
-			<div id="d" class="box"></div>
-			<div id="e" class="box"></div>
-			<div id="f" class="box"></div>
-			<div id="g" class="box"></div>
+			<div id="c1" class="box text-light"><p>A</p></div>
+			<div id="d" class="box text-light"><p>S</p></div>
+			<div id="e" class="box text-light"><p>D</p></div>
+			<div id="f" class="box text-light"><p>F</p></div>
+			<!-- <div id="g" class="box"></div>
 			<div id="a" class="box"></div>
 			<div id="b" class="box"></div>
-			<div id="c" class="box"></div>
+			<div id="c" class="box"></div> -->
 		</div>
 	</body>
 </html>
