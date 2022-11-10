@@ -65,10 +65,12 @@ fButton.onclick = () => {
 document.addEventListener('keydown', keyPressed);
 
 function keyPressed(e) {
+	if (e.repeat) return;
 	if (e.code == 'KeyA') {
 		c1Note.currentTime = 0;
 		c1Audio.play();
-		document.getElementById('c1').style.backgroundColor = 'rgba(255, 255, 255, 0)';
+		document.getElementById('c1').style.backgroundColor =
+			'rgba(255, 255, 255, 0)';
 	}
 	if (e.code == 'KeyS') {
 		dNote.currentTime = 0;
